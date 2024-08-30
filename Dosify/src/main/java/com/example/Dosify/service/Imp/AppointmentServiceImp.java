@@ -90,7 +90,7 @@ public class AppointmentServiceImp implements AppointmentService {
                  + "Best regards,\n\n"
                  + "Dosify\n";
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("mohitme1221gmail.com");
+        message.setFrom("backenddosify@gmail.com");
         message.setTo(user.getEmailId());
         message.setSubject("Appointment Booked!!");
         message.setText(text);
